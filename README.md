@@ -15,36 +15,36 @@ Before running the tests, ensure you have the following installed:
 ## Installation
 
   **Clone the repository:**
-  git clone https://github.com/SaiBharathChandra/PlaywrightTests.git
-  cd PlaywrightTests
+   git clone https://github.com/SaiBharathChandra/PlaywrightTests.git
+   cd PlaywrightTests
    
   **Install dependencies:**
   
-  npm install
+   npm install
  
   **Install Playwright browsers:**
   
-  npx playwright install
+   npx playwright install
   
   **Run all tests:**
   
-  npx playwright test
+   npx playwright test
   
   **Run tests in headed mode (visible browser):**
   
-  npx playwright test --headed
+   npx playwright test --headed
   
   **Run tests on a specific browser (e.g., Chrome):**
 
-  npx playwright test --project=chromium
+   npx playwright test --project=chromium
   
  **Run tests in debug mode:**
 
-  npx playwright test --debug
+   npx playwright test --debug
   
   **Generate and open an HTML test repor**t:
 
-  npx playwright show-report
+   npx playwright show-report
 
   
 ## Test Structure
